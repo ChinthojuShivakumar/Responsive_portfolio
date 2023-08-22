@@ -28,7 +28,7 @@ function About() {
                         <div className='aC-2-ggC-2' id='aC-2-ggC-2'>
                             <h2>Chinthoju ShivaKumar</h2>
                             <h5>Full Stack Developer</h5>
-                            <p>I am a Front-End developer. I am an Electronics and Communication Engineering undergraduate from BIET. I am very passionate about improving my coding skills & developing websites. I build Websites using ReactJS . Working for myself to improve my skills.</p>
+                            <p>I am a Full Stack Developer. I am an Electronics and Communication Engineering undergraduate from BIET. I am very passionate about improving my coding skills & developing websites. I build Websites using ReactJS . Working for myself to improve my skills.</p>
                             <button className='btn btn-primary' onClick={resumeDownload}> Resume <HiDocumentArrowDown /></button>
                         </div>
                     </div>
