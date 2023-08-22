@@ -9,8 +9,8 @@ function About() {
     let resumeDownload = (e) => {
 
         let file = document.createElement('a')
-        file.href = 'shiva_resume.pdf'
-        file.download = 'shiva_resume.pdf'
+        file.href = 'ShivaResume.pdf'
+        file.download = 'ShivaResume.pdf'
         file.click()
     }
 
