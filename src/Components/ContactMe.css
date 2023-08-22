@@ -1,0 +1,89 @@
+.header-5 {
+    /* background-color: brown; */
+    padding: 30px;
+}
+
+.h1-c {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    color: black;
+}
+.cC-2{
+  
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 30px;
+}
+.cC-gC-1{
+    margin: 60px 100px;
+}
+
+.cI{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px;
+
+}
+
+.cC-gC-2{
+    /* background-color: cadetblue; */
+    margin: 40px 80px;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: rgb(151, 142, 142);
+    border-radius: 10px;
+    width: 800px;
+    line-height: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nbtn{
+    width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+    .cC-gC-1{
+        margin: 30px 0px ;
+        
+    }
+    .cC-gC-2{
+        justify-content: center;
+        margin: 0px 0px;
+    }
+    .cI{
+        width: 250px;
+        height: 200px;
+    }
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .cC-gC-1 {
+            margin: 50px 110px;
+        }
+    .cC-gC-2 {
+            justify-content: center;
+        }
+    .cI{
+        width: 360px;
+        height: 250px;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .cC-gC-2 {
+            justify-content: center;
+        }
+    .cI{
+        width: 550px;
+        height: 280px;
+    }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .cI{
+        width: 800px;
+        height: 300px;
+    }
+}
