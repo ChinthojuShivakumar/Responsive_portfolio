@@ -11,14 +11,15 @@
     color: black;
 }
 .cC-2{
-  
+    width: 1300px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    margin: 50px 200px;
+    margin: 50px 100px;
+    background-color: aquamarine;
 }
 .cC-gC-1{
-    margin: 60px 60px;
+    margin: 60px 80px;
 }
 
 .cI{
