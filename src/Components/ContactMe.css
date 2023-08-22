@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     border-radius: 10px;
     margin: 50px 100px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .cC-gC-1{
     margin: 30px 30px;
@@ -75,16 +75,43 @@
 }
 @media screen and (min-width:769px) and (max-width: 992px) {
     .cC-gC-2 {
-            justify-content: center;
+        justify-content: center;
+        margin: 40px 0px;
+        /* padding: 30px; */
         }
     .cI{
-        width: 550px;
-        height: 280px;
+        width: 150px;
+        height: 490px;
+    }
+    .cC-gC-2{
+        width: 250px;
+        height: 500px;
+        margin: 20px;
     }
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px){
+    .cC-2{
+        /* padding: 0px 30px; */
+        justify-content: center
+    }
     .cI{
-        width: 800px;
-        height: 300px;
+        width: 250px;
+        height: 500px;
+    }
+    .cC-gC-2{
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .cC-2{
+        justify-content: center;
+    }
+    .cI{
+        width: 400px;
+    }
+    .cC-gC-2{
+        width: 400px;
     }
 }
