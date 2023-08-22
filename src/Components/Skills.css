@@ -10,12 +10,14 @@
     border-radius: 10px;
     color: black;
 }
-.sC-2{
+
+.sC-2 {
     background-color: rgb(184, 179, 179);
     margin: 50px;
     border-radius: 10px;
 }
-h6{
+
+h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -23,28 +25,70 @@ h6{
 }
 
 
-.s-Span{
-  margin: 10px 20px;
+.s-Span {
+    margin: 10px 20px;
 
 
 }
-.sM-img{
+
+.sM-img {
     background-color: azure;
     padding: 30px;
     margin: 30px 0px;
     border-radius: 10px;
 }
 
-.sI{
+.sI {
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
 
-.h5{
+.h5 {
     text-align: center;
 }
 
-/* @media only screen and (max-width: 600px) {
-    
-} */
+@media only screen and (max-width: 600px) {
+    .sM-img {
+        padding: 20px 20px;
+    }
+
+    .sI {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .sI {
+        width: 60px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .sI {
+        width: 70px;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .sM-img {
+        margin: 30px 0px;
+    }
+
+    .sI {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sI {
+        width: 70px;
+        height: 70px;
+    }
+}

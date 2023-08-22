@@ -10,30 +10,30 @@
     border-radius: 10px;
     color: black;
 }
-.cC-2{
-    /* width: 1300px; */
+
+.cC-2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     border-radius: 10px;
-    margin: 50px 100px;
-    /* background-color: aquamarine; */
-}
-.cC-gC-1{
-    margin: 30px 30px;
 }
 
-.cI{
+.cC-gC-1 {
+    margin: 60px 60px;
+}
+
+.cI {
     width: 350px;
-    height: 480px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 2px;
 
 }
 
-.cC-gC-2{
+.cC-gC-2 {
     /* background-color: cadetblue; */
-    margin: 30px 30px;
-    padding: 20px;
+    margin: 40px 80px;
+    padding: 30px;
     border: 2px solid black;
     background-color: rgb(151, 142, 142);
     border-radius: 10px;
@@ -42,76 +42,152 @@
     display: flex;
     justify-content: space-evenly;
 }
-.nbtn{
+
+.nbtn {
     width: 250px;
 }
 
-@media screen and (max-width: 600px) {
-    .cC-gC-1{
-        margin: 30px 0px ;
-        
-    }
-    .cC-gC-2{
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+    .cC-2 {
+        background-color: aquamarine;
+        margin: 40px 0px;
         justify-content: center;
-        margin: 0px 0px;
     }
-    .cI{
-        width: 250px;
-        height: 200px;
-    }
-    
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+
     .cC-gC-1 {
-            margin: 50px 110px;
-        }
-    .cC-gC-2 {
-            justify-content: center;
-        }
-    .cI{
-        width: 360px;
+        margin: 40px 0px;
+
+    }
+
+    .cI {
+        width: 350px;
         height: 250px;
     }
-}
-@media screen and (min-width:769px) and (max-width: 992px) {
+
     .cC-gC-2 {
-        justify-content: center;
-        margin: 40px 0px;
-        /* padding: 30px; */
-        }
-    .cI{
-        width: 150px;
-        height: 490px;
+        margin: 40px 80px;
+        padding: 30px 60px;
     }
-    .cC-gC-2{
-        width: 250px;
-        height: 500px;
-        margin: 20px;
-    }
+
 }
-@media only screen and (min-width: 993px) and (max-width: 1200px){
-    .cC-2{
-        /* padding: 0px 30px; */
-        justify-content: center
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .cC-2 {
+        justify-content: space-evenly;
+        background-color: aqua;
+        margin: 40px 0px;
     }
-    .cI{
-        width: 250px;
-        height: 500px;
+
+    .cC-gC-1 {
+        margin: 40px 0px;
     }
-    .cC-gC-2{
-        width: 300px;
-        height: 500px;
+
+    .cI {
+        width: 450px;
+        height: 350px;
+    }
+
+    .cC-gC-2 {
+        margin: 40px 60px;
+        padding: 30px 60px;
     }
 }
 
-@media  screen and (min-width: 1200px) {
-    .cC-2{
-        justify-content: center;
+@media screen and (min-width:769px) and (max-width: 992px) {
+    /* .cC-2 {
+        justify-content: space-evenly;
+        margin: 0px 0px;
+        background-color: chocolate;
     }
-    .cI{
+
+    .cC-gC-1 {
+        margin: 40px 0px;
+        
+
+    }
+
+    .cI {
+        width: 250px;
+        height: 350px;
+    }
+
+    .cC-gC-2 {
+        margin: 40px 0px;
+        padding: 0px 30px;
+    } */
+
+    .cC-2 {
+        justify-content: space-evenly;
+        background-color: chartreuse;
+        margin: 40px 0px;
+        /* position: relative; */
+
+
+    }
+
+    .cC-gC-1 {
+        margin: 40px 0px;
+        /* position: absolute; */
+
+
+    }
+
+    .cI {
+        width: 450px;
+        height: 450px;
+    }
+
+    .cC-gC-2 {
+        /* position: absolute; */
+        margin: 20px 40px;
+        padding: 0px 40px;
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .cC-2 {
+        justify-content: space-evenly;
+        background-color: aqua;
+        margin: 40px 0px;
+    }
+
+    .cC-gC-1 {
+        margin: 40px 0px;
+    }
+
+    .cI {
+        width: 300px;
+        height: 450px;
+    }
+
+    .cC-gC-2 {
+        margin: 40px 0px;
+        padding: 0px 30px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cC-2 {
+        justify-content: space-evenly;
+        background-color: brown;
+        margin: 30px 0px;
+    }
+
+    .cC-gC-1 {
+        margin: 40px 0px;
+    }
+
+    .cI {
         width: 400px;
+        height: 450px;
     }
-    .cC-gC-2{
-        width: 400px;
+
+    .cC-gC-2 {
+        margin: 40px 0px;
+        padding: 0px 50px;
     }
+
 }
