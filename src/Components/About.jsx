@@ -8,10 +8,10 @@ function About() {
 
     let resumeDownload = (e) => {
 
-        let file = document.createElement('a')
-        file.href = 'ShivaResume.pdf'
-        file.download = 'ShivaResume.pdf'
-        file.click()
+        let files = document.createElement('a')
+        files.href = 'ShivaResume.pdf'
+        files.download = 'ShivaResume.pdf'
+        files.click()
     }
 
     return (
