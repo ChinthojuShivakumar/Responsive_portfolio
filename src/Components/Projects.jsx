@@ -17,7 +17,7 @@ function Projects() {
         return(
             <span>
                 <Card style={{ width: '18rem',margin:'50px 0px' }}>
-                    <Card.Img variant="top" src={detail.image}/>
+                    <Card.Img variant="top" src={detail.image} className='image'/>
                     <Card.Body>
                         <Card.Title><h2>{detail.title}</h2></Card.Title>
                         <Card.Text>
