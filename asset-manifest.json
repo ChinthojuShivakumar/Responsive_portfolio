@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Responsive_portfolio/static/css/main.1c99f982.css",
-    "main.js": "/Responsive_portfolio/static/js/main.413c9fc3.js",
+    "main.js": "/Responsive_portfolio/static/js/main.7f405b62.js",
     "static/js/787.832c6699.chunk.js": "/Responsive_portfolio/static/js/787.832c6699.chunk.js",
     "static/media/my_image.jpg": "/Responsive_portfolio/static/media/my_image.9b597f9810c4833bd312.jpg",
+    "static/media/todolist.png": "/Responsive_portfolio/static/media/todolist.ef9261fdadf1fdfd87ce.png",
     "static/media/JavaScript_Logo.png": "/Responsive_portfolio/static/media/JavaScript_Logo.92169892ea013a5154bd.png",
     "static/media/Landing_page.jpg": "/Responsive_portfolio/static/media/Landing_page.0bc896c95caf694b2666.jpg",
     "static/media/node js.png": "/Responsive_portfolio/static/media/node js.71ed5f371af9664c2fd8.png",
@@ -12,7 +13,6 @@
     "static/media/Whether.png": "/Responsive_portfolio/static/media/Whether.235689ab3671a3b06a5c.png",
     "static/media/HTML_Logo.png": "/Responsive_portfolio/static/media/HTML_Logo.170d66f7f174280c62e7.png",
     "static/media/Bootstrap_logo.png": "/Responsive_portfolio/static/media/Bootstrap_logo.f132cb791703420e69ca.png",
-    "static/media/TodoList.jpg": "/Responsive_portfolio/static/media/TodoList.109d1abb93c6bc2479ea.jpg",
     "static/media/reactjs-logo.png": "/Responsive_portfolio/static/media/reactjs-logo.20adfb35ae6a6e5817bf.png",
     "static/media/GitHub-Logo.png": "/Responsive_portfolio/static/media/GitHub-Logo.05525cd9027955dbe054.png",
     "static/media/Git_Logo.jpeg": "/Responsive_portfolio/static/media/Git_Logo.3d30608716fbe1c39897.jpeg",
@@ -21,11 +21,11 @@
     "static/media/Python_Logo.jpeg": "/Responsive_portfolio/static/media/Python_Logo.f2c150489b3e558c6f94.jpeg",
     "index.html": "/Responsive_portfolio/index.html",
     "main.1c99f982.css.map": "/Responsive_portfolio/static/css/main.1c99f982.css.map",
-    "main.413c9fc3.js.map": "/Responsive_portfolio/static/js/main.413c9fc3.js.map",
+    "main.7f405b62.js.map": "/Responsive_portfolio/static/js/main.7f405b62.js.map",
     "787.832c6699.chunk.js.map": "/Responsive_portfolio/static/js/787.832c6699.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c99f982.css",
-    "static/js/main.413c9fc3.js"
+    "static/js/main.7f405b62.js"
   ]
 }
