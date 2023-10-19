@@ -1,6 +1,7 @@
 import LandingPage from '../assets/Landing_page.jpg';
 import Whether from '../assets/Whether.png';
 import Todo from '../assets/todolist.png'
+import JavaScript_Project from '../assets/JavaScript_Project.png'
 
 
 
@@ -26,6 +27,13 @@ let Projectdetail = [
         title: 'Todo List',
         description:'To-do lists app is a list of tasks can managed by user.',
         url:"http://ChinthojuShivakumar.github.io/Todolist"
+    },
+    {
+        id:'4',
+        image:JavaScript_Project,
+        title:"JavaScript Projects",
+        description:"Javascript Projects and Api Calling Projects",
+        url:"https://chinthojushivakumar.github.io/JavaScript_Projects/"
     }
 ]
 
