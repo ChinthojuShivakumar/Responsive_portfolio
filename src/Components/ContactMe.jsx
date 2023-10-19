@@ -22,7 +22,7 @@ function ContactMe() {
                                     <label for="inputPassword6" class="col-form-label">UserName</label>
                                 </div>
                                 <div class="row g-3 align-items-center">
-                                    <input type="text" id="inputPassword6" class="form-control" />
+                                    <input type="text" id="inputPassword6" class="form-control" placeholder='Type Your Name...' />
                                 </div>
                                 <div class="row g-3 align-items-center">
                                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -30,7 +30,7 @@ function ContactMe() {
                                 </div>
                                 <div class="row g-3 align-items-center">
                                     <label for="exampleFormControlTextarea1" class="form-label">Message: </label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Currently this section under construction'></textarea>
                                 </div>
                                 <div class="row g-3 align-items-center">
                                     <button type="submit" class="btn btn-primary mb-3 nbtn">Submit <RiSendPlaneFill /></button>
